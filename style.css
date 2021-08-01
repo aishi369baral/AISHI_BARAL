@@ -143,6 +143,21 @@ hr.about-divider{
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+
+.project2{    /*For the Project-web.html*/
+    text-align: center;
+    background-color: white;
+    width: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    margin:auto ;
+    border-bottom: 5px solid violet;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
 .project-3{
     text-align: center;
     background-color: white;
@@ -470,6 +485,9 @@ font-size: small;
     .project-2 a{
         font-size: small;
             }
+            .project2 a{
+                font-size: small;
+                    }
             .project-3 a{
                 font-size: small;
                     }
@@ -483,6 +501,10 @@ font-size: small;
         width: 20%;
        
     }
+    .project2{
+        width: 20%;
+       
+    }
     .project-3{
        
         width: 20%;
@@ -493,6 +515,9 @@ font-size: small;
 }
 @media(max-width:576px){
     .project-1 {
+        padding-bottom: 0%;
+    }
+    .project2 {
         padding-bottom: 0%;
     }
     .project-3 {
@@ -509,6 +534,9 @@ font-size: small;
     .project-2{
         font-size: 10px;
     }
+    .project2{
+        font-size: 10px;
+    }
     .project-3{
         font-size: 10px;
     }
@@ -518,6 +546,10 @@ font-size: small;
 }
 @media(max-width:428px){
     .project-1{
+        width: 35%;
+        margin-bottom: 5%;
+    }
+    .project2{
         width: 35%;
         margin-bottom: 5%;
     }
@@ -542,6 +574,9 @@ font-size: small;
     font-size: medium;
 }
 .project-2{
+    width:20%;
+}
+.project2{
     width:20%;
 }
 .edu1{
@@ -671,6 +706,10 @@ left: 250%;
         padding-bottom: 0%;
         margin-bottom: 1%;
     }
+    .project2{
+        padding-bottom: 0%;
+        margin-bottom: 1%;
+    }
     .contact-1{
         padding-bottom: 0%;
     }
@@ -773,11 +812,21 @@ background-color:#F6F5F5!important ;
     .project-2 img{
         width: 30%;
     }
+    .project2 img{
+        width: 30%;
+    }
     .project-2{
         margin-top: 75%;
         width: 35%;
     }
+    .project2{
+       
+        width: 35%;
+    }
     .project-2 p{
+        margin-bottom: 10%;
+    }
+    .project2 p{
         margin-bottom: 10%;
     }
     .skill-section{
